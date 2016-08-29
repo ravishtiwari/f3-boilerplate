@@ -26,9 +26,15 @@
         "level-2/dice": "dev-master",
         "filp/whoops": "dev-master",
         "league/climate": "dev-master",
-        "ravishtiwari/ffmvc": "php56"
+        "ravishtiwari/ffmvc": "dev-php56"
     },
     "suggest": {
         "php": ">=7.0.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ravishtiwari/f3-boilerplate.git"
+        }
+    ],
 }
