@@ -17,7 +17,7 @@ abstract class Base
      * @param \Base $f3
      * @param array $params
      */
-    public function __construct(\Base $f3, array $params = [])
+    public function __construct(\Base $f3, $params = [])
     {
     }
 }

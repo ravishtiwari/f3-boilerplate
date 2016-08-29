@@ -28,7 +28,7 @@ abstract class DB extends Base
      * @param \Log $logger
      * @param \DB\SQL $db
      */
-    public function __construct(array $params = [], \Log $logger = null, \DB\SQL $db = null)
+    public function __construct($params = [], \Log $logger = null, \DB\SQL $db = null)
     {
         $f3 = \Base::instance();
 

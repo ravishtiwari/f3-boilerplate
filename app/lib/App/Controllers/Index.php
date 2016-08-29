@@ -21,7 +21,7 @@ class Index extends Base
      * @param array $params
      * @return void
      */
-    public function index(\Base $f3, array $params = [])
+    public function index(\Base $f3, $params = [])
     {
         Helpers\Notifications::instance()->add("Hello world!", "success");
         echo \View::instance()->render('index/index.phtml');
