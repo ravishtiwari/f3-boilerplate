@@ -34,7 +34,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ravishtiwari/f3-boilerplate.git"
+            "url": "https://github.com/ravishtiwari/FFMVC.git"
         }
     ],
 }
