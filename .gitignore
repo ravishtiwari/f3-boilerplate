@@ -19,3 +19,4 @@ logs/*
 tmp/*
 nbproject
 lib/
+.idea

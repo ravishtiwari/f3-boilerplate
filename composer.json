@@ -26,15 +26,23 @@
         "level-2/dice": "dev-master",
         "filp/whoops": "dev-master",
         "league/climate": "dev-master",
-        "ravishtiwari/ffmvc": "dev-php56"
+        "ravishtiwari/FFMVC": "dev-php56"
     },
     "suggest": {
         "php": ">=7.0.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/ravishtiwari/FFMVC.git"
+  "repositories": [
+    {
+      "type":"package",
+      "package": {
+        "name": "ravishtiwari/FFMVC",
+        "version":"dev-php56",
+        "source": {
+          "url": "https://github.com/ravishtiwari/FFMVC.git",
+          "type": "git",
+          "reference":"php56"
         }
-    ],
+      }
+    }
+  ]
 }
